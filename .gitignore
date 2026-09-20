@@ -1,0 +1,37 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Dataset
+dataset/*/*.wav
+dataset/**/*.wav
+*.wav
+
+# Trained models / checkpoints
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.onnx
+
+# Python / ML cache
+.cache/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
